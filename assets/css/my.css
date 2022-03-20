@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans+Caption&family=Poppins:wght@300&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+* {
+    font-family: 'Poppins', sans-serif !important;
+}
+.btn.btn-purple {
+    background: linear-gradient(to right, #6600FF , #9A008F);
+    border-color: #FF00FF;
+    color: white;
+    font-size: large;
+}
+
+.sidebar-wrapper {
+    background: linear-gradient(to bottom, #6600FF , #9A008F) !important;
+}
+.sidebar-wrapper .sidebar-header {
+    color: #ffffff;
+}
+.sidebar-wrapper .menu .sidebar-title {
+    color: #ffffffa1 !important;
+    font-weight: unset !important;
+}
+a.sidebar-link {
+    /* color: #8A00B4; */
+    color: #ffffff;
+}
+.sidebar-wrapper .menu .submenu li a {
+    /* color: #8A00B4 !important; */
+    color: #ffffff !important;
+}
+.sidebar-wrapper .menu .sidebar-link>span {
+    /* color: #8A00B4 !important; */
+    color: #ffffff !important;
+}
+.sidebar-wrapper .menu .sidebar-item.active .sidebar-link:before {
+    background-color: #FF00FF !important;
+}
+.sidebar-wrapper .menu .sidebar-item.active .sidebar-link,  .sidebar-wrapper .menu .sidebar-item.active .sidebar-link>span {
+    color: #8A00B4 !important;
+}
+.sidebar-wrapper .menu .sidebar-item.has-sub .sidebar-link:after {
+    color: white !important;
+}
+
+#acc {
+    padding-top: 8vh;
+}
+.card-acc {
+    /* padding: 5vh; */
+    border-radius: 10px;
+    box-shadow: -5px 0px 20px 15px #8000ff50 !important;
+}
+#acc-container {
+    padding: 30px;
+}
+.acc-img-1 {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.acc-img-2 {
+    width: 100%;
+    position: absolute;
+    /* bottom: 0; */
+}
+.acc-bg {
+    background: linear-gradient(to right, #6600FF , #9A008F);
+    border-radius: 10px 0 0 10px;
+    position: relative;
+}
+
+.acc-title {
+    text-align: center;
+}
+.acc-bg .acc-title {
+    color: white;
+}
+.acc-underline {
+    background-color: white;
+    opacity: 60%;
+}
+.acc-form {
+    text-align: center;
+}
+.acc-form h2, .acc-form h5 {
+    color: #8A00B4 !important;
+}
+.acc-label {
+    font-size: medium;
+    font-weight: bold;
+    text-align: left;
+}
+.acc-input {
+    border: unset;
+    /* margin: 0;
+    padding: 0; */
+    width: 100%;
+    color: #8A00B4 !important;
+    font-size: larger;
+    font-weight: bold;
+    text-align: left;
+}
+input.acc-input:focus {
+    background-color: unset;
+    outline: 0;
+    text-align: left;
+}
+.acc-input-hr {
+    background-color: #8A00B4;
+    opacity: 60%;
+    margin: 0;
+}
+.form-check {
+    text-align: left;
+}
+.form-check input {
+    border: 1px solid #8A00B4;
+}
+.form-check-input:checked {
+    background-color: #8A00B4;
+    border-color: #6600FF;
+}
+.form-check label {
+    color: #8A00B4;
+    font-weight: bold;
+}
+.form-control {
+    color: #8A00B4;
+    border: 1px solid #8A00B4;
+    font-weight: bold;
+}
+.form-control:focus {
+    color: #8A00B4;
+    border: 1px solid #8A00B4;
+}
+.form-floating>label {
+    color: #8A00B4;
+    font-weight: bold;
+}
+.acc-btn-login {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+.acc-link {
+    color: #8A00B4;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.acc-link:hover {
+    color: #9A008F;
+}
+.acc-link-hr {
+    width: 25%;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 100%;
+    background-color: #8A00B4;
+}
+@media (max-width: 991.98px) {
+    .acc-bg {
+        border-radius: 10px 10px 0 0;
+        background: unset;
+    }
+    .acc-img-1 {
+        width: auto;
+        position: relative;
+    }
+    .acc-img-2 {
+        opacity: 50%;
+        z-index: -1;
+        bottom: -80vh;
+    }
+    .acc-bg .acc-title {
+        color: white;
+    }
+    .card-acc {
+        background: linear-gradient(to right, #6600FF , #9A008F);
+        color: white;
+    }
+    .acc-form h2, .acc-form h5 {
+        color: #ffffff !important;
+    }
+    .acc-input {
+        color: #ffffff !important;
+        background-color: unset;
+    }
+    .acc-input-hr {
+        background-color: #ffffff;
+    }
+    .form-check input {
+        border: 1px solid #ffffff;
+    }
+    .form-check-input:checked {
+        background-color: #8A00B4;
+        border-color: #8A00B4;
+    }
+    .form-check label {
+        color: #ffffff;
+        font-weight: bold;
+    }
+    .acc-link {
+        color: #ffffff;
+    }
+    .acc-link:hover {
+        color: #ffffff;
+    }
+    .acc-link-hr {
+        background-color: #ffffff;
+    }
+    .for-pass .acc-link {
+        color: #8A00B4;
+    }
+    .for-pass .acc-form h2, .for-pass .acc-form h5 {
+        color: #8A00B4 !important;
+        font-weight: bold;
+    }
+} 

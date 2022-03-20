@@ -217,4 +217,7 @@ input.acc-input:focus {
         color: #8A00B4 !important;
         font-weight: bold;
     }
+    .cpass .acc-link {
+        color: #8A00B4;
+    }
 } 

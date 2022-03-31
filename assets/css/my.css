@@ -4,39 +4,54 @@
     font-family: 'Poppins', sans-serif !important;
 }
 .btn.btn-purple {
-    background: linear-gradient(to right, #6600FF , #9A008F);
-    border-color: #FF00FF;
+    background: #1460C8;
+    /* border-color: #FF00FF; */
     color: white;
     font-size: large;
 }
+.purple {
+    color: #1460C8 !important;
+}
+.btn.btn-red {
+    background: #A03D45;
+    /* border-color: #FF00FF; */
+    color: white;
+    font-size: large;
+}
+.red {
+    color: #A03D45 !important;
+}
 
 .sidebar-wrapper {
-    background: linear-gradient(to bottom, #6600FF , #9A008F) !important;
+    background: #050A30 !important;
 }
 .sidebar-wrapper .sidebar-header {
     color: #ffffff;
+}
+.btn i, .btn svg  {
+    color: white !important;
 }
 .sidebar-wrapper .menu .sidebar-title {
     color: #ffffffa1 !important;
     font-weight: unset !important;
 }
 a.sidebar-link {
-    /* color: #8A00B4; */
+    /* color: #1460C8; */
     color: #ffffff;
 }
 .sidebar-wrapper .menu .submenu li a {
-    /* color: #8A00B4 !important; */
+    /* color: #1460C8 !important; */
     color: #ffffff !important;
 }
 .sidebar-wrapper .menu .sidebar-link>span {
-    /* color: #8A00B4 !important; */
+    /* color: #1460C8 !important; */
     color: #ffffff !important;
 }
 .sidebar-wrapper .menu .sidebar-item.active .sidebar-link:before {
-    background-color: #FF00FF !important;
+    background-color: #000C66 !important;
 }
 .sidebar-wrapper .menu .sidebar-item.active .sidebar-link,  .sidebar-wrapper .menu .sidebar-item.active .sidebar-link>span {
-    color: #8A00B4 !important;
+    color: #1460C8 !important;
 }
 .sidebar-wrapper .menu .sidebar-item.has-sub .sidebar-link:after {
     color: white !important;
@@ -48,13 +63,16 @@ a.sidebar-link {
 .card-acc {
     /* padding: 5vh; */
     border-radius: 10px;
-    box-shadow: -5px 0px 20px 15px #8000ff50 !important;
+    box-shadow: 0px 0px 30px 5px #7EC8E3 !important;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 #acc-container {
     padding: 30px;
 }
 .acc-img-1 {
-    width: 100%;
+    width: 90%;
     position: absolute;
     bottom: 0;
 }
@@ -64,7 +82,7 @@ a.sidebar-link {
     /* bottom: 0; */
 }
 .acc-bg {
-    background: linear-gradient(to right, #6600FF , #9A008F);
+    /* background: linear-gradient(to right, #299BFF , #0238E1); */
     border-radius: 10px 0 0 10px;
     position: relative;
 }
@@ -73,17 +91,17 @@ a.sidebar-link {
     text-align: center;
 }
 .acc-bg .acc-title {
-    color: white;
+    color: #000C66;
 }
 .acc-underline {
-    background-color: white;
-    opacity: 60%;
+    background-color: #000C66;
+    opacity: 100%;
 }
 .acc-form {
     text-align: center;
 }
 .acc-form h2, .acc-form h5 {
-    color: #8A00B4 !important;
+    color: #000C66 !important;
 }
 .acc-label {
     font-size: medium;
@@ -95,7 +113,7 @@ a.sidebar-link {
     /* margin: 0;
     padding: 0; */
     width: 100%;
-    color: #8A00B4 !important;
+    color: #000C66 !important;
     font-size: larger;
     font-weight: bold;
     text-align: left;
@@ -106,35 +124,35 @@ input.acc-input:focus {
     text-align: left;
 }
 .acc-input-hr {
-    background-color: #8A00B4;
-    opacity: 60%;
+    background-color: #000C66;
+    opacity: 100%;
     margin: 0;
 }
 .form-check {
     text-align: left;
 }
 .form-check input {
-    border: 1px solid #8A00B4;
+    border: 1px solid #000C66;
 }
 .form-check-input:checked {
-    background-color: #8A00B4;
+    background-color: #000C66;
     border-color: #6600FF;
 }
 .form-check label {
-    color: #8A00B4;
+    color: #000C66;
     font-weight: bold;
 }
 .form-control {
-    color: #8A00B4;
-    border: 1px solid #8A00B4;
+    color: #000C66;
+    border: 1px solid #000C66;
     font-weight: bold;
 }
 .form-control:focus {
-    color: #8A00B4;
-    border: 1px solid #8A00B4;
+    color: #000C66;
+    border: 1px solid #000C66;
 }
 .form-floating>label {
-    color: #8A00B4;
+    color: #000C66;
     font-weight: bold;
 }
 .acc-btn-login {
@@ -143,13 +161,15 @@ input.acc-input:focus {
     margin-bottom: 15px;
 }
 .acc-link {
-    color: #8A00B4;
+    color: #000C66;
     font-weight: bold;
     text-align: center;
     margin-bottom: 30px;
+    transition: .3s;
 }
 .acc-link:hover {
-    color: #9A008F;
+    color: #0000FF;
+    transition: .3s;
 }
 .acc-link-hr {
     width: 25%;
@@ -157,7 +177,7 @@ input.acc-input:focus {
     margin-left: auto;
     margin-right: auto;
     opacity: 100%;
-    background-color: #8A00B4;
+    background-color: #000C66;
 }
 @media (max-width: 991.98px) {
     .acc-bg {
@@ -177,7 +197,7 @@ input.acc-input:focus {
         color: white;
     }
     .card-acc {
-        background: linear-gradient(to right, #6600FF , #9A008F);
+        background: linear-gradient(to right, #299BFF , #0238E1);
         color: white;
     }
     .acc-form h2, .acc-form h5 {
@@ -194,8 +214,8 @@ input.acc-input:focus {
         border: 1px solid #ffffff;
     }
     .form-check-input:checked {
-        background-color: #8A00B4;
-        border-color: #8A00B4;
+        background-color: #1460C8;
+        border-color: #1460C8;
     }
     .form-check label {
         color: #ffffff;
@@ -211,10 +231,55 @@ input.acc-input:focus {
         background-color: #ffffff;
     }
     .for-pass .acc-link {
-        color: #8A00B4;
+        color: #1460C8;
     }
     .for-pass .acc-form h2, .for-pass .acc-form h5 {
-        color: #8A00B4 !important;
+        color: #1460C8 !important;
         font-weight: bold;
     }
+    .cpass .acc-link {
+        color: #1460C8;
+    }
 } 
+
+.input-search {
+    border-radius: 3px;
+}
+.input-search:focus {
+    outline: 0;
+}
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 815px;
+        margin: 1.75rem auto;
+    }
+}
+@media (min-width: 576px) {
+    .modal-dialog.edit {
+        max-width: 815px;
+        margin: 1.75rem auto;
+    }
+    .modal-dialog.detpict {
+        max-width: 676px;
+        margin: 1.75rem auto;
+    }
+}
+.modal-content {
+    background-color: #FFFFFF;
+    width: 815px;
+    border-radius: 10px !important;
+}
+.modal-header, .modal-footer {
+    border: none;
+}
+.gambar-lama img {
+    width: 20%;
+}
+.pict-detail {
+    cursor: pointer;
+    width: 50%;
+    
+}
+.img-detail {
+    width: 90%;
+}

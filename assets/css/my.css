@@ -63,7 +63,11 @@ a.sidebar-link {
 .card-acc {
     /* padding: 5vh; */
     border-radius: 10px;
+<<<<<<< HEAD
     box-shadow: 0px 0px 30px 5px #7EC8E3 !important;
+=======
+    box-shadow: -5px 0px 20px 15px #8000ff50 !important;
+>>>>>>> c8478b4cc0b639945230cb35402b07b04350677c
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -238,6 +242,7 @@ input.acc-input:focus {
         font-weight: bold;
     }
     .cpass .acc-link {
+<<<<<<< HEAD
         color: #1460C8;
     }
 } 
@@ -283,3 +288,8 @@ input.acc-input:focus {
 .img-detail {
     width: 90%;
 }
+=======
+        color: #8A00B4;
+    }
+} 
+>>>>>>> c8478b4cc0b639945230cb35402b07b04350677c

@@ -1,23 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans+Caption&family=Poppins:wght@300&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
 * {
     font-family: 'Poppins', sans-serif !important;
 }
+
 .btn.btn-purple {
     background: #1460C8;
     /* border-color: #FF00FF; */
     color: white;
     font-size: large;
 }
+
 .purple {
     color: #1460C8 !important;
 }
+
 .btn.btn-red {
     background: #A03D45;
     /* border-color: #FF00FF; */
     color: white;
     font-size: large;
 }
+
 .red {
     color: #A03D45 !important;
 }
@@ -25,34 +30,45 @@
 .sidebar-wrapper {
     background: #050A30 !important;
 }
+
 .sidebar-wrapper .sidebar-header {
     color: #ffffff;
 }
-.btn i, .btn svg  {
+
+.btn i,
+.btn svg {
     color: white !important;
 }
+
 .sidebar-wrapper .menu .sidebar-title {
     color: #ffffffa1 !important;
     font-weight: unset !important;
 }
+
 a.sidebar-link {
     /* color: #1460C8; */
     color: #ffffff;
 }
+
 .sidebar-wrapper .menu .submenu li a {
     /* color: #1460C8 !important; */
     color: #ffffff !important;
 }
+
 .sidebar-wrapper .menu .sidebar-link>span {
     /* color: #1460C8 !important; */
     color: #ffffff !important;
 }
+
 .sidebar-wrapper .menu .sidebar-item.active .sidebar-link:before {
     background-color: #000C66 !important;
 }
-.sidebar-wrapper .menu .sidebar-item.active .sidebar-link,  .sidebar-wrapper .menu .sidebar-item.active .sidebar-link>span {
+
+.sidebar-wrapper .menu .sidebar-item.active .sidebar-link,
+.sidebar-wrapper .menu .sidebar-item.active .sidebar-link>span {
     color: #1460C8 !important;
 }
+
 .sidebar-wrapper .menu .sidebar-item.has-sub .sidebar-link:after {
     color: white !important;
 }
@@ -60,31 +76,33 @@ a.sidebar-link {
 #acc {
     padding-top: 8vh;
 }
+
 .card-acc {
     /* padding: 5vh; */
     border-radius: 10px;
-<<<<<<< HEAD
     box-shadow: 0px 0px 30px 5px #7EC8E3 !important;
-=======
     box-shadow: -5px 0px 20px 15px #8000ff50 !important;
->>>>>>> c8478b4cc0b639945230cb35402b07b04350677c
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
+
 #acc-container {
     padding: 30px;
 }
+
 .acc-img-1 {
     width: 90%;
     position: absolute;
     bottom: 0;
 }
+
 .acc-img-2 {
     width: 100%;
     position: absolute;
     /* bottom: 0; */
 }
+
 .acc-bg {
     /* background: linear-gradient(to right, #299BFF , #0238E1); */
     border-radius: 10px 0 0 10px;
@@ -94,24 +112,31 @@ a.sidebar-link {
 .acc-title {
     text-align: center;
 }
+
 .acc-bg .acc-title {
     color: #000C66;
 }
+
 .acc-underline {
     background-color: #000C66;
     opacity: 100%;
 }
+
 .acc-form {
     text-align: center;
 }
-.acc-form h2, .acc-form h5 {
+
+.acc-form h2,
+.acc-form h5 {
     color: #000C66 !important;
 }
+
 .acc-label {
     font-size: medium;
     font-weight: bold;
     text-align: left;
 }
+
 .acc-input {
     border: unset;
     /* margin: 0;
@@ -122,48 +147,59 @@ a.sidebar-link {
     font-weight: bold;
     text-align: left;
 }
+
 input.acc-input:focus {
     background-color: unset;
     outline: 0;
     text-align: left;
 }
+
 .acc-input-hr {
     background-color: #000C66;
     opacity: 100%;
     margin: 0;
 }
+
 .form-check {
     text-align: left;
 }
+
 .form-check input {
     border: 1px solid #000C66;
 }
+
 .form-check-input:checked {
     background-color: #000C66;
     border-color: #6600FF;
 }
+
 .form-check label {
     color: #000C66;
     font-weight: bold;
 }
+
 .form-control {
     color: #000C66;
     border: 1px solid #000C66;
     font-weight: bold;
 }
+
 .form-control:focus {
     color: #000C66;
     border: 1px solid #000C66;
 }
+
 .form-floating>label {
     color: #000C66;
     font-weight: bold;
 }
+
 .acc-btn-login {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 15px;
 }
+
 .acc-link {
     color: #000C66;
     font-weight: bold;
@@ -171,10 +207,12 @@ input.acc-input:focus {
     margin-bottom: 30px;
     transition: .3s;
 }
+
 .acc-link:hover {
     color: #0000FF;
     transition: .3s;
 }
+
 .acc-link-hr {
     width: 25%;
     margin-top: 0;
@@ -183,113 +221,136 @@ input.acc-input:focus {
     opacity: 100%;
     background-color: #000C66;
 }
+
 @media (max-width: 991.98px) {
     .acc-bg {
         border-radius: 10px 10px 0 0;
         background: unset;
     }
+
     .acc-img-1 {
         width: auto;
         position: relative;
     }
+
     .acc-img-2 {
         opacity: 50%;
         z-index: -1;
         bottom: -80vh;
     }
+
     .acc-bg .acc-title {
         color: white;
     }
+
     .card-acc {
-        background: linear-gradient(to right, #299BFF , #0238E1);
+        background: linear-gradient(to right, #299BFF, #0238E1);
         color: white;
     }
-    .acc-form h2, .acc-form h5 {
+
+    .acc-form h2,
+    .acc-form h5 {
         color: #ffffff !important;
     }
+
     .acc-input {
         color: #ffffff !important;
         background-color: unset;
     }
+
     .acc-input-hr {
         background-color: #ffffff;
     }
+
     .form-check input {
         border: 1px solid #ffffff;
     }
+
     .form-check-input:checked {
         background-color: #1460C8;
         border-color: #1460C8;
     }
+
     .form-check label {
         color: #ffffff;
         font-weight: bold;
     }
+
     .acc-link {
         color: #ffffff;
     }
+
     .acc-link:hover {
         color: #ffffff;
     }
+
     .acc-link-hr {
         background-color: #ffffff;
     }
+
     .for-pass .acc-link {
         color: #1460C8;
     }
-    .for-pass .acc-form h2, .for-pass .acc-form h5 {
+
+    .for-pass .acc-form h2,
+    .for-pass .acc-form h5 {
         color: #1460C8 !important;
         font-weight: bold;
     }
-    .cpass .acc-link {
-<<<<<<< HEAD
+
+    .profile .acc-link {
         color: #1460C8;
     }
-} 
+}
 
 .input-search {
     border-radius: 3px;
 }
+
 .input-search:focus {
     outline: 0;
 }
+
 @media (min-width: 576px) {
     .modal-dialog {
         max-width: 815px;
         margin: 1.75rem auto;
     }
 }
+
 @media (min-width: 576px) {
     .modal-dialog.edit {
         max-width: 815px;
         margin: 1.75rem auto;
     }
+
     .modal-dialog.detpict {
         max-width: 676px;
         margin: 1.75rem auto;
     }
 }
+
 .modal-content {
     background-color: #FFFFFF;
     width: 815px;
     border-radius: 10px !important;
 }
-.modal-header, .modal-footer {
+
+.modal-header,
+.modal-footer {
     border: none;
 }
+
 .gambar-lama img {
     width: 20%;
 }
+
 .pict-detail {
     cursor: pointer;
     width: 50%;
-    
+
 }
+
 .img-detail {
     width: 90%;
 }
-=======
-        color: #8A00B4;
-    }
-} 
->>>>>>> c8478b4cc0b639945230cb35402b07b04350677c

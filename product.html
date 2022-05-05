@@ -103,10 +103,7 @@
                                 <div class="d-none d-md-block d-lg-inline-block">Hi, Stevan</div>
                             </a>
                             <div class="dropdown-menu dropdown-menu-end">
-                                <!-- <a class="dropdown-item" href="#"><i data-feather="user"></i> Account</a> -->
-                                <!-- <a class="dropdown-item active" href="#"><i data-feather="mail"></i> Messages</a> -->
-                                <a class="dropdown-item" href="change-password.html"><i data-feather="key"></i> Change
-                                    Password</a>
+                                <a class="dropdown-item" href="profile.html"><i data-feather="user"></i> Profile</a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#"><i data-feather="log-out"></i> Logout</a>
                             </div>
@@ -122,42 +119,46 @@
                 </div>
                 <section class="section">
 
-                    <a href="#" class="btn btn-purple mb-3" data-bs-toggle="modal" data-bs-target="#AddProduct">Tambah Produk</a>
+                    <a href="#" class="btn btn-purple mb-3" data-bs-toggle="modal" data-bs-target="#AddProduct">Tambah
+                        Produk</a>
                     <!-- MODAL TAMBAH START -->
-                    <div class="modal fade" id="AddProduct" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal fade" id="AddProduct" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered edit">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel"><strong>Tambah Data</strong></h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <div class="mb-2">
-                                    <label for="formFile" class="form-label">Upload Gambar Barang</label>
-                                    <input class="form-control" type="file" id="formFile">
-                                    <div class="gambar-lama">
-                                        <p><strong>Preview Gambar</strong></p>
-                                        <img src="assets/images/mouse.jpg" alt="">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel"><strong>Tambah Data</strong></h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="mb-2">
+                                        <label for="formFile" class="form-label">Upload Gambar Barang</label>
+                                        <input class="form-control" type="file" id="formFile">
+                                        <div class="gambar-lama">
+                                            <p><strong>Preview Gambar</strong></p>
+                                            <img src="assets/images/mouse.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="form-floating mb-2">
+                                        <textarea class="form-control" placeholder="Leave a comment here"
+                                            id="floatingTextarea2" style="height: 100px"></textarea>
+                                        <label for="floatingTextarea2">Deskripsi</label>
+                                    </div>
+                                    <div class="form-floating mb-2">
+                                        <input type="text" class="form-control" placeholder="Nama Produk">
+                                        <label>Nama Produk</label>
+                                    </div>
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" placeholder="Harga">
+                                        <label>Harga Barang</label>
                                     </div>
                                 </div>
-                                <div class="form-floating mb-2">
-                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                                <label for="floatingTextarea2">Deskripsi</label>
-                                </div>
-                                <div class="form-floating mb-2">
-                                    <input type="text" class="form-control" placeholder="Nama Produk">
-                                    <label>Nama Produk</label>
-                                </div>
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" placeholder="Harga">
-                                    <label>Harga Barang</label>
+                                <div class="modal-footer">
+                                    <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+                                    <button type="button" class="btn btn-purple">Simpan</button>
                                 </div>
                             </div>
-                            <div class="modal-footer">
-                                <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
-                                <button type="button" class="btn btn-purple">Simpan</button>
-                            </div>
-                        </div>
                         </div>
                     </div>
                     <!-- MODAL TAMBAH END -->
@@ -182,7 +183,8 @@
                     <table class="table table-striped">
                         <thead>
                             <tr>
-                                <th class="col-1"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></th>
+                                <th class="col-1"><input class="form-check-input" type="checkbox" value=""
+                                        id="flexCheckDefault"></th>
                                 <th class="col-1">No</th>
                                 <th class="col-1">Gambar</th>
                                 <th class="col-1">Nama</th>
@@ -193,21 +195,26 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <th scope="row"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></th>
+                                <th scope="row"><input class="form-check-input" type="checkbox" value=""
+                                        id="flexCheckDefault"></th>
                                 <th>1</th>
-                                <td class="p-0"><img class="pict-detail" data-bs-toggle="modal" data-bs-target="#PictDetail1" src="assets/images/mouse.jpg" alt=""></td>
+                                <td class="p-0"><img class="pict-detail" data-bs-toggle="modal"
+                                        data-bs-target="#PictDetail1" src="assets/images/mouse.jpg" alt=""></td>
                                 <!-- MODAL DETAIL GAMBAR START -->
-                                <div class="modal fade" id="PictDetail1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal fade" id="PictDetail1" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered detpict">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel"><strong>Gambar Produk</strong></h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel"><strong>Gambar
+                                                        Produk</strong></h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="img-detail" src="assets/images/mouse.jpg" alt="">
+                                            </div>
                                         </div>
-                                        <div class="modal-body">
-                                            <img class="img-detail" src="assets/images/mouse.jpg" alt="">
-                                        </div>
-                                    </div>
                                     </div>
                                 </div>
                                 <!-- MODAL DETAIL GAMBAR END -->
@@ -215,42 +222,51 @@
                                 <td>Rp 1.000</td>
                                 <td>1</td>
                                 <td>
-                                    <a href="#" class="btn btn-purple mb-3" data-bs-toggle="modal" data-bs-target="#EditProduct1"><i data-feather="edit" width="20"></i></a>
+                                    <a href="#" class="btn btn-purple mb-3" data-bs-toggle="modal"
+                                        data-bs-target="#EditProduct1"><i data-feather="edit" width="20"></i></a>
                                     <!-- MODAL EDIT START -->
-                                    <div class="modal fade" id="EditProduct1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal fade" id="EditProduct1" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
                                         <div class="modal-dialog modal-dialog-centered edit">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel"><strong>Edit Data</strong></h5>
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <div class="mb-2">
-                                                    <label for="formFile" class="form-label">Upload Gambar Barang</label>
-                                                    <input class="form-control" type="file" id="formFile">
-                                                    <div class="gambar-lama">
-                                                        <p><strong>Preview Gambar</strong></p>
-                                                        <img src="assets/images/mouse.jpg" alt="">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel"><strong>Edit
+                                                            Data</strong></h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="mb-2">
+                                                        <label for="formFile" class="form-label">Upload Gambar
+                                                            Barang</label>
+                                                        <input class="form-control" type="file" id="formFile">
+                                                        <div class="gambar-lama">
+                                                            <p><strong>Preview Gambar</strong></p>
+                                                            <img src="assets/images/mouse.jpg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-floating mb-2">
+                                                        <textarea class="form-control"
+                                                            placeholder="Leave a comment here" id="floatingTextarea2"
+                                                            style="height: 100px">Mouse Gaming RGB</textarea>
+                                                        <label for="floatingTextarea2">Deskripsi</label>
+                                                    </div>
+                                                    <div class="form-floating mb-2">
+                                                        <input type="text" class="form-control"
+                                                            placeholder="Nama Produk" value="Mouse">
+                                                        <label>Nama Produk</label>
+                                                    </div>
+                                                    <div class="form-floating w-50">
+                                                        <input type="text" class="form-control text-end"
+                                                            placeholder="Harga" value="1000">
+                                                        <label>Harga Barang</label>
                                                     </div>
                                                 </div>
-                                                <div class="form-floating mb-2">
-                                                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px">Mouse Gaming RGB</textarea>
-                                                    <label for="floatingTextarea2">Deskripsi</label>
-                                                </div>
-                                                <div class="form-floating mb-2">
-                                                    <input type="text" class="form-control" placeholder="Nama Produk" value="Mouse">
-                                                    <label>Nama Produk</label>
-                                                </div>
-                                                <div class="form-floating w-50">
-                                                    <input type="text" class="form-control text-end" placeholder="Harga" value="1000">
-                                                    <label>Harga Barang</label>
+                                                <div class="modal-footer">
+                                                    <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+                                                    <button type="button" class="btn btn-purple">Simpan</button>
                                                 </div>
                                             </div>
-                                            <div class="modal-footer">
-                                                <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
-                                                <button type="button" class="btn btn-purple">Simpan</button>
-                                            </div>
-                                        </div>
                                         </div>
                                     </div>
                                     <!-- MODAL EDIT END -->
@@ -258,21 +274,26 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th scope="row"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></th>
+                                <th scope="row"><input class="form-check-input" type="checkbox" value=""
+                                        id="flexCheckDefault"></th>
                                 <th>2</th>
-                                <td class="p-0"><img class="pict-detail p-0" data-bs-toggle="modal" data-bs-target="#PictDetail2" src="assets/images/monitor.jpg" alt=""></td>
+                                <td class="p-0"><img class="pict-detail p-0" data-bs-toggle="modal"
+                                        data-bs-target="#PictDetail2" src="assets/images/monitor.jpg" alt=""></td>
                                 <!-- MODAL DETAIL GAMBAR START -->
-                                <div class="modal fade" id="PictDetail2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal fade" id="PictDetail2" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered detpict">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel"><strong>Gambar Produk</strong></h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel"><strong>Gambar
+                                                        Produk</strong></h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="img-detail" src="assets/images/monitor.jpg" alt="">
+                                            </div>
                                         </div>
-                                        <div class="modal-body">
-                                            <img class="img-detail" src="assets/images/monitor.jpg" alt="">
-                                        </div>
-                                    </div>
                                     </div>
                                 </div>
                                 <!-- MODAL DETAIL GAMBAR END -->
@@ -280,42 +301,51 @@
                                 <td>Rp 2.000</td>
                                 <td>2</td>
                                 <td>
-                                    <a href="#" class="btn btn-purple mb-3" data-bs-toggle="modal" data-bs-target="#EditProduct2"><i data-feather="edit" width="20"></i></a>
+                                    <a href="#" class="btn btn-purple mb-3" data-bs-toggle="modal"
+                                        data-bs-target="#EditProduct2"><i data-feather="edit" width="20"></i></a>
                                     <!-- MODAL EDIT START -->
-                                    <div class="modal fade" id="EditProduct2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal fade" id="EditProduct2" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
                                         <div class="modal-dialog modal-dialog-centered edit">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel"><strong>Edit Data</strong></h5>
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <div class="mb-2">
-                                                    <label for="formFile" class="form-label">Upload Gambar Barang</label>
-                                                    <input class="form-control" type="file" id="formFile">
-                                                    <div class="gambar-lama">
-                                                        <p><strong>Preview Gambar</strong></p>
-                                                        <img src="assets/images/monitor.jpg" alt="">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel"><strong>Edit
+                                                            Data</strong></h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="mb-2">
+                                                        <label for="formFile" class="form-label">Upload Gambar
+                                                            Barang</label>
+                                                        <input class="form-control" type="file" id="formFile">
+                                                        <div class="gambar-lama">
+                                                            <p><strong>Preview Gambar</strong></p>
+                                                            <img src="assets/images/monitor.jpg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-floating mb-2">
+                                                        <textarea class="form-control"
+                                                            placeholder="Leave a comment here" id="floatingTextarea2"
+                                                            style="height: 100px">Monitor ROG</textarea>
+                                                        <label for="floatingTextarea2">Deskripsi</label>
+                                                    </div>
+                                                    <div class="form-floating mb-2">
+                                                        <input type="text" class="form-control"
+                                                            placeholder="Nama Produk" value="Monitor">
+                                                        <label>Nama Produk</label>
+                                                    </div>
+                                                    <div class="form-floating w-50">
+                                                        <input type="text" class="form-control text-end"
+                                                            placeholder="Harga" value="2000">
+                                                        <label>Harga Barang</label>
                                                     </div>
                                                 </div>
-                                                <div class="form-floating mb-2">
-                                                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px">Monitor ROG</textarea>
-                                                    <label for="floatingTextarea2">Deskripsi</label>
-                                                </div>
-                                                <div class="form-floating mb-2">
-                                                    <input type="text" class="form-control" placeholder="Nama Produk" value="Monitor">
-                                                    <label>Nama Produk</label>
-                                                </div>
-                                                <div class="form-floating w-50">
-                                                    <input type="text" class="form-control text-end" placeholder="Harga" value="2000">
-                                                    <label>Harga Barang</label>
+                                                <div class="modal-footer">
+                                                    <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+                                                    <button type="button" class="btn btn-purple">Simpan</button>
                                                 </div>
                                             </div>
-                                            <div class="modal-footer">
-                                                <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
-                                                <button type="button" class="btn btn-purple">Simpan</button>
-                                            </div>
-                                        </div>
                                         </div>
                                     </div>
                                     <!-- MODAL EDIT END -->
@@ -323,21 +353,26 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th scope="row"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></th>
+                                <th scope="row"><input class="form-check-input" type="checkbox" value=""
+                                        id="flexCheckDefault"></th>
                                 <th>3</th>
-                                <td class="p-0"><img class="pict-detail p-0" data-bs-toggle="modal" data-bs-target="#PictDetail3" src="assets/images/kursi.jpg" alt=""></td>
+                                <td class="p-0"><img class="pict-detail p-0" data-bs-toggle="modal"
+                                        data-bs-target="#PictDetail3" src="assets/images/kursi.jpg" alt=""></td>
                                 <!-- MODAL DETAIL GAMBAR START -->
-                                <div class="modal fade" id="PictDetail3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal fade" id="PictDetail3" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered detpict">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel"><strong>Gambar Produk</strong></h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel"><strong>Gambar
+                                                        Produk</strong></h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="img-detail" src="assets/images/kursi.jpg" alt="">
+                                            </div>
                                         </div>
-                                        <div class="modal-body">
-                                            <img class="img-detail" src="assets/images/kursi.jpg" alt="">
-                                        </div>
-                                    </div>
                                     </div>
                                 </div>
                                 <!-- MODAL DETAIL GAMBAR END -->
@@ -345,42 +380,51 @@
                                 <td>Rp 1.000</td>
                                 <td>3</td>
                                 <td>
-                                    <a href="#" class="btn btn-purple mb-3" data-bs-toggle="modal" data-bs-target="#EditProduct3"><i data-feather="edit" width="20"></i></a>
+                                    <a href="#" class="btn btn-purple mb-3" data-bs-toggle="modal"
+                                        data-bs-target="#EditProduct3"><i data-feather="edit" width="20"></i></a>
                                     <!-- MODAL EDIT START -->
-                                    <div class="modal fade" id="EditProduct3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal fade" id="EditProduct3" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
                                         <div class="modal-dialog modal-dialog-centered edit">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel"><strong>Edit Data</strong></h5>
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <div class="mb-2">
-                                                    <label for="formFile" class="form-label">Upload Gambar Barang</label>
-                                                    <input class="form-control" type="file" id="formFile">
-                                                    <div class="gambar-lama">
-                                                        <p><strong>Preview Gambar</strong></p>
-                                                        <img src="assets/images/kursi.jpg" alt="">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel"><strong>Edit
+                                                            Data</strong></h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="mb-2">
+                                                        <label for="formFile" class="form-label">Upload Gambar
+                                                            Barang</label>
+                                                        <input class="form-control" type="file" id="formFile">
+                                                        <div class="gambar-lama">
+                                                            <p><strong>Preview Gambar</strong></p>
+                                                            <img src="assets/images/kursi.jpg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-floating mb-2">
+                                                        <textarea class="form-control"
+                                                            placeholder="Leave a comment here" id="floatingTextarea2"
+                                                            style="height: 100px">Kursi Gaming Secret Lab</textarea>
+                                                        <label for="floatingTextarea2">Deskripsi</label>
+                                                    </div>
+                                                    <div class="form-floating mb-2">
+                                                        <input type="text" class="form-control"
+                                                            placeholder="Nama Produk" value="Kursi Gaming">
+                                                        <label>Nama Produk</label>
+                                                    </div>
+                                                    <div class="form-floating w-50">
+                                                        <input type="text" class="form-control text-end"
+                                                            placeholder="Harga" value="3000">
+                                                        <label>Harga Barang</label>
                                                     </div>
                                                 </div>
-                                                <div class="form-floating mb-2">
-                                                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px">Kursi Gaming Secret Lab</textarea>
-                                                    <label for="floatingTextarea2">Deskripsi</label>
-                                                </div>
-                                                <div class="form-floating mb-2">
-                                                    <input type="text" class="form-control" placeholder="Nama Produk" value="Kursi Gaming">
-                                                    <label>Nama Produk</label>
-                                                </div>
-                                                <div class="form-floating w-50">
-                                                    <input type="text" class="form-control text-end" placeholder="Harga" value="3000">
-                                                    <label>Harga Barang</label>
+                                                <div class="modal-footer">
+                                                    <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+                                                    <button type="button" class="btn btn-purple">Simpan</button>
                                                 </div>
                                             </div>
-                                            <div class="modal-footer">
-                                                <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
-                                                <button type="button" class="btn btn-purple">Simpan</button>
-                                            </div>
-                                        </div>
                                         </div>
                                     </div>
                                     <!-- MODAL EDIT END -->
@@ -409,7 +453,8 @@
                             <nav aria-label="..." class="float-end">
                                 <ul class="pagination">
                                     <li class="page-item disabled">
-                                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true"><i data-feather="chevrons-left" width="20"></i></a>
+                                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true"><i
+                                                data-feather="chevrons-left" width="20"></i></a>
                                     </li>
                                     <li class="page-item active"><a class="page-link" href="#">1</a></li>
                                     <li class="page-item" aria-current="page">
@@ -417,7 +462,8 @@
                                     </li>
                                     <li class="page-item"><a class="page-link" href="#">3</a></li>
                                     <li class="page-item">
-                                        <a class="page-link" href="#"><i data-feather="chevrons-right" width="20"></i></a>
+                                        <a class="page-link" href="#"><i data-feather="chevrons-right"
+                                                width="20"></i></a>
                                     </li>
                                 </ul>
                             </nav>

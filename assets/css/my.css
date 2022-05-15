@@ -263,7 +263,7 @@ input.acc-input:focus {
     }
 
     .form-check input {
-        border: 1px solid #ffffff;
+        /* border: 1px solid #ffffff; */
     }
 
     .form-check-input:checked {
@@ -272,7 +272,7 @@ input.acc-input:focus {
     }
 
     .form-check label {
-        color: #ffffff;
+        /* color: #ffffff; */
         font-weight: bold;
     }
 
